@@ -1,0 +1,14 @@
+Organisational Hierarchy (input to the program, hard-coded per problem statement):
+
+CEO -> HR, Finance, IT
+IT -> Development, Testing
+Development -> Frontend, Backend
+
+Department list (searchable representation), in insertion/unsorted order:
+CEO, HR, Finance, IT, Development, Testing, Frontend, Backend
+
+Search keys used to test Linear Search vs Binary Search (>= 3 searches, includes a miss):
+1. Testing   (present, mid-late in unsorted order)
+2. HR        (present, near the front)
+3. Backend   (present, at the very end of unsorted order)
+4. Sales     (not present - miss case)
