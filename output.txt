@@ -1,0 +1,17 @@
+===== Part (a): Tree Construction & Level-Order Traversal =====
+Level-Order Traversal of Organisational Hierarchy:
+CEO 
+HR Finance IT 
+Development Testing 
+Frontend Backend 
+Tree height: 4
+
+===== Part (b): Linear Search vs Binary Search =====
+Unsorted array (for Linear Search): CEO HR Finance IT Development Testing Frontend Backend 
+Sorted array (for Binary Search):  Backend CEO Development Finance Frontend HR IT Testing 
+
+Key          Linear (comparisons) Binary (comparisons)
+Testing      6                  4                  
+HR           2                  2                  
+Backend      8                  3                  
+Sales        8                  4                  (not found)
